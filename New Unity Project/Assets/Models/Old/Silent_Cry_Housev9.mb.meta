@@ -1,0 +1,1020 @@
+fileFormatVersion: 2
+guid: fc6769376e70ffb46b2ccfd4b5b316e3
+timeCreated: 1449254442
+licenseType: Free
+ModelImporter:
+  serializedVersion: 18
+  fileIDToRecycleName:
+    100000: Amp
+    100002: Amp_Body
+    100004: Amp_Cloth
+    100006: Amp_Knobs
+    100008: Amp_Plastic
+    100010: Assest_For_Later
+    100012: Base
+    100014: Bed
+    100016: Bedframe
+    100018: Bedroom1
+    100020: Bedroom:Chair
+    100022: Bedroom:chair
+    100024: Bedroom:Chair_SeatCushion
+    100026: Bedroom:CL_Bulb
+    100028: Bedroom:CL_Fillament
+    100030: Bedroom:CL_Fixture
+    100032: Bedroom:CL_Metal
+    100034: Bedroom:CL_Shade
+    100036: Bedroom:Door
+    100038: Bedroom:door_frame
+    100040: Bedroom:Door_Hardware
+    100042: Bedroom:extrudedSurface1
+    100044: Bedroom:extrudedSurface2
+    100046: Bedroom:Keyboard1
+    100048: Bedroom:Keyboard_Keys
+    100050: Bedroom:Monitor_Base
+    100052: Bedroom:Monitor_Body
+    100054: Bedroom:Monitor_Knob
+    100056: Bedroom:Monitor_Screen
+    100058: Bedroom:Mouse
+    100060: Bedroom:Mouse_Base
+    100062: Bedroom:Mus_sladd
+    100064: Bedroom:Musmatta
+    100066: Bedroom:NOAH_box01
+    100068: Bedroom:NOAH_cinka
+    100070: Bedroom:NOAH_plagat01
+    100072: Bedroom:NOAH_plagat02
+    100074: Bedroom:NOAH_plagat03
+    100076: Bedroom:NOAH_table
+    100078: Bedroom:NOAH_window02
+    100080: Bedroom:PC
+    100082: Bedroom:polySurface10528
+    100084: Bedroom:polySurface10529
+    100086: Bedroom:polySurface10530
+    100088: Bedroom:polySurface10531
+    100090: Bedroom:polySurface10532
+    100092: Bedroom:polySurface10533
+    100094: Bedroom:polySurface10534
+    100096: Bedroom:polySurface10535
+    100098: Bedroom:polySurface10536
+    100100: Bedroom:polySurface10537
+    100102: Bedroom:polySurface10932
+    100104: Bedroom:polySurface8
+    100106: Bedroom:polySurface8998
+    100108: Bedroom_Cabinets
+    100110: Bedroom_Wall
+    100112: Blanket
+    100114: Blinds
+    100116: Blinds 1
+    100118: Blinds_Bottem
+    100120: Blinds_Bottem 1
+    100122: Blinds_Holders
+    100124: Blinds_Holders 1
+    100126: Blinds_Knob
+    100128: Blinds_Knob 1
+    100130: Blinds_Knot
+    100132: Blinds_Knot 1
+    100134: Blinds_String
+    100136: Blinds_String 1
+    100138: Blinds_Stringtop
+    100140: Blinds_Stringtop 1
+    100142: Blinds_Top
+    100144: Blinds_Top 1
+    100146: Book
+    100148: Bottem
+    100150: Box
+    100152: Counter
+    100154: Door_Bathroom
+    100156: Door_Bedroom
+    100158: Door_Hallway
+    100160: Door_Kids_Room
+    100162: Door_OuterHallway
+    100164: Doors
+    100166: Drawer_Bottem
+    100168: Drawer_Middle
+    100170: Drawer_Top
+    100172: Dresser
+    100174: Dresser 1
+    100176: Dresser2_Table
+    100178: Dresser2_Top
+    100180: Dresser_Body
+    100182: Dresser_Body 1
+    100184: Dresser_Legs
+    100186: Dresser_Legs 1
+    100188: Dresser_Setup
+    100190: Dresser_Setup2
+    100192: Drink_Cup
+    100194: Drink_Lid
+    100196: Drink_Straw
+    100198: eh:ID107
+    100200: eh:ID115
+    100202: eh:ID15
+    100204: eh:ID23
+    100206: eh:ID31
+    100208: eh:ID37
+    100210: eh:ID50
+    100212: eh:ID63
+    100214: eh:ID69
+    100216: eh:ID75
+    100218: eh:ID83
+    100220: eh:ID91
+    100222: eh:ID99
+    100224: Floor
+    100226: For_Study
+    100228: gravityField1
+    100230: gravityField2
+    100232: Guitar
+    100234: Guitar_Base
+    100236: Guitar_Buttons
+    100238: Guitar_Cover
+    100240: Guitar_Metal
+    100242: Guitar_Notes
+    100244: Guitar_Plisky
+    100246: Hall_way
+    100248: Heater
+    100250: House
+    100252: imagePlane1
+    100254: Iner_Frame
+    100256: Iner_Frame 1
+    100258: Iner_Frame 2
+    100260: Iner_Frame 3
+    100262: Keyboard
+    100264: Kitchen
+    100266: Knob
+    100268: Knob 1
+    100270: Knob 2
+    100272: Knob 3
+    100274: Knob2
+    100276: Knob2 1
+    100278: Knob2 2
+    100280: Knob2 3
+    100282: Knobs
+    100284: Knobs 1
+    100286: Lamp
+    100288: Lamp 1
+    100290: Lamp_Base
+    100292: Lamp_Bulb
+    100294: Lamp_Shade
+    100296: Lamp_Socket
+    100298: Lamp_Switch
+    100300: Lamp_Switch_Corde
+    100302: Lamp_Switch_Cover
+    100304: Laptop
+    100306: Laptop 1
+    100308: Leave_Alone_Blanket
+    100310: Leave_Alone_Pillow
+    100312: Living_Room
+    100314: Main_Door
+    100316: Main_Door 1
+    100318: Main_Door 2
+    100320: Main_Door 3
+    100322: Main_Door_with_Knob
+    100324: Main_Door_with_Knob 1
+    100326: Main_Door_with_Knob 2
+    100328: Main_Door_with_Knob 3
+    100330: Main_Spaces
+    100332: Mattress
+    100334: Middle
+    100336: nCloth1
+    100338: nCloth2
+    100340: nRigid1
+    100342: nRigid2
+    100344: nRigid3
+    100346: nRigid4
+    100348: nucleus1
+    100350: Outer_Frame
+    100352: Outer_Frame 1
+    100354: Outer_Frame 2
+    100356: Outer_Frame 3
+    100358: Outer_Frame1
+    100360: Outer_Hallway
+    100362: Outer_Wall
+    100364: Paper
+    100366: Paper1
+    100368: Paper2
+    100370: Paper_InTrash
+    100372: pCube1
+    100374: Pillow
+    100376: Pillow1
+    100378: Plant
+    100380: Plant_Base
+    100382: Plant_Dirt
+    100384: Plant_Leaves
+    100386: Plant_Pot
+    100388: Plant_Shavings
+    100390: Plant_Stems
+    100392: Posters
+    100394: //RootNode
+    100396: Soda
+    100398: Soda_Base
+    100400: Soda_Bottle
+    100402: Soda_Label
+    100404: Table
+    100406: Toy
+    100408: Toy_Base
+    100410: Toy_Body
+    100412: Toy_Head
+    100414: Toy_Neck
+    100416: Toy_Spring
+    100418: Trashcan
+    100420: Tv
+    100422: Tv_Stand
+    100424: Walls
+    100426: Window
+    100428: Window 1
+    100430: Window 2
+    100432: Window_Bedroom
+    100434: Window_Bedroom1
+    100436: Wood_Floor
+    400000: Amp
+    400002: Amp_Body
+    400004: Amp_Cloth
+    400006: Amp_Knobs
+    400008: Amp_Plastic
+    400010: Assest_For_Later
+    400012: Base
+    400014: Bed
+    400016: Bedframe
+    400018: Bedroom1
+    400020: Bedroom:Chair
+    400022: Bedroom:chair
+    400024: Bedroom:Chair_SeatCushion
+    400026: Bedroom:CL_Bulb
+    400028: Bedroom:CL_Fillament
+    400030: Bedroom:CL_Fixture
+    400032: Bedroom:CL_Metal
+    400034: Bedroom:CL_Shade
+    400036: Bedroom:Door
+    400038: Bedroom:door_frame
+    400040: Bedroom:Door_Hardware
+    400042: Bedroom:extrudedSurface1
+    400044: Bedroom:extrudedSurface2
+    400046: Bedroom:Keyboard1
+    400048: Bedroom:Keyboard_Keys
+    400050: Bedroom:Monitor_Base
+    400052: Bedroom:Monitor_Body
+    400054: Bedroom:Monitor_Knob
+    400056: Bedroom:Monitor_Screen
+    400058: Bedroom:Mouse
+    400060: Bedroom:Mouse_Base
+    400062: Bedroom:Mus_sladd
+    400064: Bedroom:Musmatta
+    400066: Bedroom:NOAH_box01
+    400068: Bedroom:NOAH_cinka
+    400070: Bedroom:NOAH_plagat01
+    400072: Bedroom:NOAH_plagat02
+    400074: Bedroom:NOAH_plagat03
+    400076: Bedroom:NOAH_table
+    400078: Bedroom:NOAH_window02
+    400080: Bedroom:PC
+    400082: Bedroom:polySurface10528
+    400084: Bedroom:polySurface10529
+    400086: Bedroom:polySurface10530
+    400088: Bedroom:polySurface10531
+    400090: Bedroom:polySurface10532
+    400092: Bedroom:polySurface10533
+    400094: Bedroom:polySurface10534
+    400096: Bedroom:polySurface10535
+    400098: Bedroom:polySurface10536
+    400100: Bedroom:polySurface10537
+    400102: Bedroom:polySurface10932
+    400104: Bedroom:polySurface8
+    400106: Bedroom:polySurface8998
+    400108: Bedroom_Cabinets
+    400110: Bedroom_Wall
+    400112: Blanket
+    400114: Blinds
+    400116: Blinds 1
+    400118: Blinds_Bottem
+    400120: Blinds_Bottem 1
+    400122: Blinds_Holders
+    400124: Blinds_Holders 1
+    400126: Blinds_Knob
+    400128: Blinds_Knob 1
+    400130: Blinds_Knot
+    400132: Blinds_Knot 1
+    400134: Blinds_String
+    400136: Blinds_String 1
+    400138: Blinds_Stringtop
+    400140: Blinds_Stringtop 1
+    400142: Blinds_Top
+    400144: Blinds_Top 1
+    400146: Book
+    400148: Bottem
+    400150: Box
+    400152: Counter
+    400154: Door_Bathroom
+    400156: Door_Bedroom
+    400158: Door_Hallway
+    400160: Door_Kids_Room
+    400162: Door_OuterHallway
+    400164: Doors
+    400166: Drawer_Bottem
+    400168: Drawer_Middle
+    400170: Drawer_Top
+    400172: Dresser
+    400174: Dresser 1
+    400176: Dresser2_Table
+    400178: Dresser2_Top
+    400180: Dresser_Body
+    400182: Dresser_Body 1
+    400184: Dresser_Legs
+    400186: Dresser_Legs 1
+    400188: Dresser_Setup
+    400190: Dresser_Setup2
+    400192: Drink_Cup
+    400194: Drink_Lid
+    400196: Drink_Straw
+    400198: eh:ID107
+    400200: eh:ID115
+    400202: eh:ID15
+    400204: eh:ID23
+    400206: eh:ID31
+    400208: eh:ID37
+    400210: eh:ID50
+    400212: eh:ID63
+    400214: eh:ID69
+    400216: eh:ID75
+    400218: eh:ID83
+    400220: eh:ID91
+    400222: eh:ID99
+    400224: Floor
+    400226: For_Study
+    400228: gravityField1
+    400230: gravityField2
+    400232: Guitar
+    400234: Guitar_Base
+    400236: Guitar_Buttons
+    400238: Guitar_Cover
+    400240: Guitar_Metal
+    400242: Guitar_Notes
+    400244: Guitar_Plisky
+    400246: Hall_way
+    400248: Heater
+    400250: House
+    400252: imagePlane1
+    400254: Iner_Frame
+    400256: Iner_Frame 1
+    400258: Iner_Frame 2
+    400260: Iner_Frame 3
+    400262: Keyboard
+    400264: Kitchen
+    400266: Knob
+    400268: Knob 1
+    400270: Knob 2
+    400272: Knob 3
+    400274: Knob2
+    400276: Knob2 1
+    400278: Knob2 2
+    400280: Knob2 3
+    400282: Knobs
+    400284: Knobs 1
+    400286: Lamp
+    400288: Lamp 1
+    400290: Lamp_Base
+    400292: Lamp_Bulb
+    400294: Lamp_Shade
+    400296: Lamp_Socket
+    400298: Lamp_Switch
+    400300: Lamp_Switch_Corde
+    400302: Lamp_Switch_Cover
+    400304: Laptop
+    400306: Laptop 1
+    400308: Leave_Alone_Blanket
+    400310: Leave_Alone_Pillow
+    400312: Living_Room
+    400314: Main_Door
+    400316: Main_Door 1
+    400318: Main_Door 2
+    400320: Main_Door 3
+    400322: Main_Door_with_Knob
+    400324: Main_Door_with_Knob 1
+    400326: Main_Door_with_Knob 2
+    400328: Main_Door_with_Knob 3
+    400330: Main_Spaces
+    400332: Mattress
+    400334: Middle
+    400336: nCloth1
+    400338: nCloth2
+    400340: nRigid1
+    400342: nRigid2
+    400344: nRigid3
+    400346: nRigid4
+    400348: nucleus1
+    400350: Outer_Frame
+    400352: Outer_Frame 1
+    400354: Outer_Frame 2
+    400356: Outer_Frame 3
+    400358: Outer_Frame1
+    400360: Outer_Hallway
+    400362: Outer_Wall
+    400364: Paper
+    400366: Paper1
+    400368: Paper2
+    400370: Paper_InTrash
+    400372: pCube1
+    400374: Pillow
+    400376: Pillow1
+    400378: Plant
+    400380: Plant_Base
+    400382: Plant_Dirt
+    400384: Plant_Leaves
+    400386: Plant_Pot
+    400388: Plant_Shavings
+    400390: Plant_Stems
+    400392: Posters
+    400394: //RootNode
+    400396: Soda
+    400398: Soda_Base
+    400400: Soda_Bottle
+    400402: Soda_Label
+    400404: Table
+    400406: Toy
+    400408: Toy_Base
+    400410: Toy_Body
+    400412: Toy_Head
+    400414: Toy_Neck
+    400416: Toy_Spring
+    400418: Trashcan
+    400420: Tv
+    400422: Tv_Stand
+    400424: Walls
+    400426: Window
+    400428: Window 1
+    400430: Window 2
+    400432: Window_Bedroom
+    400434: Window_Bedroom1
+    400436: Wood_Floor
+    2300000: Amp_Body
+    2300002: Amp_Cloth
+    2300004: Amp_Knobs
+    2300006: Amp_Plastic
+    2300008: Base
+    2300010: Bedframe
+    2300012: Bedroom:Chair
+    2300014: Bedroom:chair
+    2300016: Bedroom:Chair_SeatCushion
+    2300018: Bedroom:CL_Bulb
+    2300020: Bedroom:CL_Fillament
+    2300022: Bedroom:CL_Fixture
+    2300024: Bedroom:CL_Metal
+    2300026: Bedroom:CL_Shade
+    2300028: Bedroom:Door
+    2300030: Bedroom:door_frame
+    2300032: Bedroom:Door_Hardware
+    2300034: Bedroom:extrudedSurface1
+    2300036: Bedroom:extrudedSurface2
+    2300038: Bedroom:Keyboard1
+    2300040: Bedroom:Keyboard_Keys
+    2300042: Bedroom:Monitor_Base
+    2300044: Bedroom:Monitor_Body
+    2300046: Bedroom:Monitor_Knob
+    2300048: Bedroom:Monitor_Screen
+    2300050: Bedroom:Mouse
+    2300052: Bedroom:Mouse_Base
+    2300054: Bedroom:Mus_sladd
+    2300056: Bedroom:Musmatta
+    2300058: Bedroom:NOAH_box01
+    2300060: Bedroom:NOAH_cinka
+    2300062: Bedroom:NOAH_plagat01
+    2300064: Bedroom:NOAH_plagat02
+    2300066: Bedroom:NOAH_plagat03
+    2300068: Bedroom:NOAH_table
+    2300070: Bedroom:NOAH_window02
+    2300072: Bedroom:PC
+    2300074: Bedroom:polySurface10528
+    2300076: Bedroom:polySurface10529
+    2300078: Bedroom:polySurface10530
+    2300080: Bedroom:polySurface10531
+    2300082: Bedroom:polySurface10532
+    2300084: Bedroom:polySurface10533
+    2300086: Bedroom:polySurface10534
+    2300088: Bedroom:polySurface10535
+    2300090: Bedroom:polySurface10536
+    2300092: Bedroom:polySurface10537
+    2300094: Bedroom:polySurface10932
+    2300096: Bedroom:polySurface8
+    2300098: Bedroom:polySurface8998
+    2300100: Bedroom_Cabinets
+    2300102: Bedroom_Wall
+    2300104: Blanket
+    2300106: Blinds
+    2300108: Blinds 1
+    2300110: Blinds_Bottem
+    2300112: Blinds_Bottem 1
+    2300114: Blinds_Holders
+    2300116: Blinds_Holders 1
+    2300118: Blinds_Knob
+    2300120: Blinds_Knob 1
+    2300122: Blinds_Knot
+    2300124: Blinds_Knot 1
+    2300126: Blinds_String
+    2300128: Blinds_String 1
+    2300130: Blinds_Stringtop
+    2300132: Blinds_Stringtop 1
+    2300134: Blinds_Top
+    2300136: Blinds_Top 1
+    2300138: Book
+    2300140: Bottem
+    2300142: Counter
+    2300144: Drawer_Bottem
+    2300146: Drawer_Middle
+    2300148: Drawer_Top
+    2300150: Dresser2_Table
+    2300152: Dresser2_Top
+    2300154: Dresser_Body
+    2300156: Dresser_Body 1
+    2300158: Dresser_Legs
+    2300160: Dresser_Legs 1
+    2300162: Drink_Cup
+    2300164: Drink_Lid
+    2300166: Drink_Straw
+    2300168: eh:ID107
+    2300170: eh:ID115
+    2300172: eh:ID15
+    2300174: eh:ID23
+    2300176: eh:ID31
+    2300178: eh:ID37
+    2300180: eh:ID50
+    2300182: eh:ID63
+    2300184: eh:ID69
+    2300186: eh:ID75
+    2300188: eh:ID83
+    2300190: eh:ID91
+    2300192: eh:ID99
+    2300194: Floor
+    2300196: Guitar_Base
+    2300198: Guitar_Buttons
+    2300200: Guitar_Cover
+    2300202: Guitar_Metal
+    2300204: Guitar_Notes
+    2300206: Guitar_Plisky
+    2300208: Hall_way
+    2300210: Heater
+    2300212: Iner_Frame
+    2300214: Iner_Frame 1
+    2300216: Iner_Frame 2
+    2300218: Iner_Frame 3
+    2300220: Keyboard
+    2300222: Kitchen
+    2300224: Knob
+    2300226: Knob 1
+    2300228: Knob 2
+    2300230: Knob 3
+    2300232: Knob2
+    2300234: Knob2 1
+    2300236: Knob2 2
+    2300238: Knob2 3
+    2300240: Knobs
+    2300242: Knobs 1
+    2300244: Lamp_Base
+    2300246: Lamp_Bulb
+    2300248: Lamp_Shade
+    2300250: Lamp_Socket
+    2300252: Lamp_Switch
+    2300254: Lamp_Switch_Corde
+    2300256: Lamp_Switch_Cover
+    2300258: Laptop 1
+    2300260: Living_Room
+    2300262: Main_Door
+    2300264: Main_Door 1
+    2300266: Main_Door 2
+    2300268: Main_Door 3
+    2300270: Mattress
+    2300272: Middle
+    2300274: Outer_Frame
+    2300276: Outer_Frame 1
+    2300278: Outer_Frame 2
+    2300280: Outer_Frame 3
+    2300282: Outer_Frame1
+    2300284: Outer_Wall
+    2300286: Paper1
+    2300288: Paper2
+    2300290: Paper_InTrash
+    2300292: pCube1
+    2300294: Pillow
+    2300296: Pillow1
+    2300298: Plant_Base
+    2300300: Plant_Dirt
+    2300302: Plant_Leaves
+    2300304: Plant_Pot
+    2300306: Plant_Shavings
+    2300308: Plant_Stems
+    2300310: Soda_Base
+    2300312: Soda_Bottle
+    2300314: Soda_Label
+    2300316: Table
+    2300318: Toy_Base
+    2300320: Toy_Body
+    2300322: Toy_Head
+    2300324: Toy_Neck
+    2300326: Toy_Spring
+    2300328: Trashcan
+    2300330: Tv
+    2300332: Tv_Stand
+    2300334: Window 1
+    2300336: Window 2
+    2300338: Wood_Floor
+    3300000: Amp_Body
+    3300002: Amp_Cloth
+    3300004: Amp_Knobs
+    3300006: Amp_Plastic
+    3300008: Base
+    3300010: Bedframe
+    3300012: Bedroom:Chair
+    3300014: Bedroom:chair
+    3300016: Bedroom:Chair_SeatCushion
+    3300018: Bedroom:CL_Bulb
+    3300020: Bedroom:CL_Fillament
+    3300022: Bedroom:CL_Fixture
+    3300024: Bedroom:CL_Metal
+    3300026: Bedroom:CL_Shade
+    3300028: Bedroom:Door
+    3300030: Bedroom:door_frame
+    3300032: Bedroom:Door_Hardware
+    3300034: Bedroom:extrudedSurface1
+    3300036: Bedroom:extrudedSurface2
+    3300038: Bedroom:Keyboard1
+    3300040: Bedroom:Keyboard_Keys
+    3300042: Bedroom:Monitor_Base
+    3300044: Bedroom:Monitor_Body
+    3300046: Bedroom:Monitor_Knob
+    3300048: Bedroom:Monitor_Screen
+    3300050: Bedroom:Mouse
+    3300052: Bedroom:Mouse_Base
+    3300054: Bedroom:Mus_sladd
+    3300056: Bedroom:Musmatta
+    3300058: Bedroom:NOAH_box01
+    3300060: Bedroom:NOAH_cinka
+    3300062: Bedroom:NOAH_plagat01
+    3300064: Bedroom:NOAH_plagat02
+    3300066: Bedroom:NOAH_plagat03
+    3300068: Bedroom:NOAH_table
+    3300070: Bedroom:NOAH_window02
+    3300072: Bedroom:PC
+    3300074: Bedroom:polySurface10528
+    3300076: Bedroom:polySurface10529
+    3300078: Bedroom:polySurface10530
+    3300080: Bedroom:polySurface10531
+    3300082: Bedroom:polySurface10532
+    3300084: Bedroom:polySurface10533
+    3300086: Bedroom:polySurface10534
+    3300088: Bedroom:polySurface10535
+    3300090: Bedroom:polySurface10536
+    3300092: Bedroom:polySurface10537
+    3300094: Bedroom:polySurface10932
+    3300096: Bedroom:polySurface8
+    3300098: Bedroom:polySurface8998
+    3300100: Bedroom_Cabinets
+    3300102: Bedroom_Wall
+    3300104: Blanket
+    3300106: Blinds
+    3300108: Blinds 1
+    3300110: Blinds_Bottem
+    3300112: Blinds_Bottem 1
+    3300114: Blinds_Holders
+    3300116: Blinds_Holders 1
+    3300118: Blinds_Knob
+    3300120: Blinds_Knob 1
+    3300122: Blinds_Knot
+    3300124: Blinds_Knot 1
+    3300126: Blinds_String
+    3300128: Blinds_String 1
+    3300130: Blinds_Stringtop
+    3300132: Blinds_Stringtop 1
+    3300134: Blinds_Top
+    3300136: Blinds_Top 1
+    3300138: Book
+    3300140: Bottem
+    3300142: Counter
+    3300144: Drawer_Bottem
+    3300146: Drawer_Middle
+    3300148: Drawer_Top
+    3300150: Dresser2_Table
+    3300152: Dresser2_Top
+    3300154: Dresser_Body
+    3300156: Dresser_Body 1
+    3300158: Dresser_Legs
+    3300160: Dresser_Legs 1
+    3300162: Drink_Cup
+    3300164: Drink_Lid
+    3300166: Drink_Straw
+    3300168: eh:ID107
+    3300170: eh:ID115
+    3300172: eh:ID15
+    3300174: eh:ID23
+    3300176: eh:ID31
+    3300178: eh:ID37
+    3300180: eh:ID50
+    3300182: eh:ID63
+    3300184: eh:ID69
+    3300186: eh:ID75
+    3300188: eh:ID83
+    3300190: eh:ID91
+    3300192: eh:ID99
+    3300194: Floor
+    3300196: Guitar_Base
+    3300198: Guitar_Buttons
+    3300200: Guitar_Cover
+    3300202: Guitar_Metal
+    3300204: Guitar_Notes
+    3300206: Guitar_Plisky
+    3300208: Hall_way
+    3300210: Heater
+    3300212: Iner_Frame
+    3300214: Iner_Frame 1
+    3300216: Iner_Frame 2
+    3300218: Iner_Frame 3
+    3300220: Keyboard
+    3300222: Kitchen
+    3300224: Knob
+    3300226: Knob 1
+    3300228: Knob 2
+    3300230: Knob 3
+    3300232: Knob2
+    3300234: Knob2 1
+    3300236: Knob2 2
+    3300238: Knob2 3
+    3300240: Knobs
+    3300242: Knobs 1
+    3300244: Lamp_Base
+    3300246: Lamp_Bulb
+    3300248: Lamp_Shade
+    3300250: Lamp_Socket
+    3300252: Lamp_Switch
+    3300254: Lamp_Switch_Corde
+    3300256: Lamp_Switch_Cover
+    3300258: Laptop 1
+    3300260: Living_Room
+    3300262: Main_Door
+    3300264: Main_Door 1
+    3300266: Main_Door 2
+    3300268: Main_Door 3
+    3300270: Mattress
+    3300272: Middle
+    3300274: Outer_Frame
+    3300276: Outer_Frame 1
+    3300278: Outer_Frame 2
+    3300280: Outer_Frame 3
+    3300282: Outer_Frame1
+    3300284: Outer_Wall
+    3300286: Paper1
+    3300288: Paper2
+    3300290: Paper_InTrash
+    3300292: pCube1
+    3300294: Pillow
+    3300296: Pillow1
+    3300298: Plant_Base
+    3300300: Plant_Dirt
+    3300302: Plant_Leaves
+    3300304: Plant_Pot
+    3300306: Plant_Shavings
+    3300308: Plant_Stems
+    3300310: Soda_Base
+    3300312: Soda_Bottle
+    3300314: Soda_Label
+    3300316: Table
+    3300318: Toy_Base
+    3300320: Toy_Body
+    3300322: Toy_Head
+    3300324: Toy_Neck
+    3300326: Toy_Spring
+    3300328: Trashcan
+    3300330: Tv
+    3300332: Tv_Stand
+    3300334: Window 1
+    3300336: Window 2
+    3300338: Wood_Floor
+    4300000: Tv
+    4300002: Trashcan
+    4300004: Paper1
+    4300006: Paper2
+    4300008: Paper_InTrash
+    4300010: Wood_Floor
+    4300012: Heater
+    4300014: Bedroom_Cabinets
+    4300016: Bedroom:NOAH_cinka
+    4300018: Bedroom:NOAH_box01
+    4300020: Window
+    4300022: Blinds_Bottem
+    4300024: Blinds_Knob
+    4300026: Blinds_String
+    4300028: Blinds_Knot
+    4300030: Blinds_Stringtop
+    4300032: Blinds
+    4300034: Blinds_Holders
+    4300036: Blinds_Top
+    4300038: Window
+    4300040: Blinds_Bottem
+    4300042: Blinds_Knob
+    4300044: Blinds_String
+    4300046: Blinds_Knot
+    4300048: Blinds_Stringtop
+    4300050: Blinds
+    4300052: Blinds_Holders
+    4300054: Blinds_Top
+    4300056: Dresser2_Top
+    4300058: Dresser2_Table
+    4300060: Knobs
+    4300062: Dresser_Body
+    4300064: Dresser_Legs
+    4300066: Middle
+    4300068: Bottem
+    4300070: Lamp_Bulb
+    4300072: Lamp_Shade
+    4300074: Lamp_Socket
+    4300076: Lamp_Base
+    4300078: Lamp_Switch_Cover
+    4300080: Lamp_Switch
+    4300082: Lamp_Switch_Corde
+    4300084: Drink_Straw
+    4300086: Drink_Lid
+    4300088: Drink_Cup
+    4300090: Guitar_Base
+    4300092: Guitar_Notes
+    4300094: Guitar_Plisky
+    4300096: Guitar_Buttons
+    4300098: Guitar_Cover
+    4300100: Guitar_Metal
+    4300102: Soda_Bottle
+    4300104: Soda_Label
+    4300106: Soda_Base
+    4300108: Amp_Body
+    4300110: Amp_Plastic
+    4300112: Amp_Knobs
+    4300114: Amp_Cloth
+    4300116: Bedroom:CL_Bulb
+    4300118: Bedroom:CL_Metal
+    4300120: Bedroom:CL_Shade
+    4300122: Bedroom:CL_Fillament
+    4300124: Bedroom:CL_Fixture
+    4300126: Keyboard
+    4300128: Laptop
+    4300130: Base
+    4300132: Mattress
+    4300134: Pillow
+    4300136: Pillow1
+    4300138: Blanket
+    4300140: Bedframe
+    4300142: Book
+    4300144: Plant_Pot
+    4300146: Plant_Base
+    4300148: Plant_Dirt
+    4300150: Plant_Shavings
+    4300152: Plant_Leaves
+    4300154: Plant_Stems
+    4300156: Toy_Neck
+    4300158: Toy_Head
+    4300160: Toy_Spring
+    4300162: Toy_Body
+    4300164: Toy_Base
+    4300166: Drawer_Middle
+    4300168: Drawer_Bottem
+    4300170: Drawer_Top
+    4300172: Table
+    4300174: Knobs
+    4300176: Dresser_Body
+    4300178: Dresser_Legs
+    4300180: Floor
+    4300182: Hall_way
+    4300184: Kitchen
+    4300186: Counter
+    4300188: Living_Room
+    4300190: Outer_Frame
+    4300192: Iner_Frame
+    4300194: Main_Door
+    4300196: Knob
+    4300198: Knob2
+    4300200: Outer_Frame1
+    4300202: Outer_Frame
+    4300204: Iner_Frame
+    4300206: Main_Door
+    4300208: Knob
+    4300210: Knob2
+    4300212: Outer_Frame
+    4300214: Iner_Frame
+    4300216: Main_Door
+    4300218: Knob
+    4300220: Knob2
+    4300222: Outer_Frame
+    4300224: Iner_Frame
+    4300226: Main_Door
+    4300228: Knob
+    4300230: Knob2
+    4300232: Outer_Wall
+    4300234: Bedroom_Wall
+    4300236: Bedroom:NOAH_plagat01
+    4300238: Bedroom:NOAH_plagat02
+    4300240: Bedroom:NOAH_plagat03
+    4300242: Bedroom:door_frame
+    4300244: Bedroom:Door
+    4300246: Bedroom:Door_Hardware
+    4300248: Bedroom:NOAH_window02
+    4300250: Bedroom:polySurface8998
+    4300252: Bedroom:polySurface10932
+    4300254: Bedroom:NOAH_table
+    4300256: Bedroom:Monitor_Knob
+    4300258: Bedroom:Monitor_Body
+    4300260: Bedroom:polySurface10528
+    4300262: Bedroom:polySurface10529
+    4300264: Bedroom:polySurface10530
+    4300266: Bedroom:polySurface10531
+    4300268: Bedroom:polySurface10532
+    4300270: Bedroom:polySurface10533
+    4300272: Bedroom:polySurface10534
+    4300274: Bedroom:polySurface10535
+    4300276: Bedroom:polySurface10536
+    4300278: Bedroom:polySurface10537
+    4300280: Bedroom:Chair_SeatCushion
+    4300282: Bedroom:Chair
+    4300284: Bedroom:Monitor_Base
+    4300286: Bedroom:extrudedSurface1
+    4300288: Bedroom:extrudedSurface2
+    4300290: Bedroom:polySurface8
+    4300292: Bedroom:Mouse_Base
+    4300294: Bedroom:chair
+    4300296: Bedroom:PC
+    4300298: Bedroom:Musmatta
+    4300300: Bedroom:Mus_sladd
+    4300302: Bedroom:Mouse
+    4300304: Bedroom:Keyboard_Keys
+    4300306: Bedroom:Keyboard1
+    4300308: Bedroom:Monitor_Screen
+    4300310: Tv_Stand
+    4300312: eh:ID15
+    4300314: eh:ID23
+    4300316: eh:ID31
+    4300318: eh:ID37
+    4300320: eh:ID50
+    4300322: eh:ID63
+    4300324: eh:ID69
+    4300326: eh:ID75
+    4300328: eh:ID83
+    4300330: eh:ID91
+    4300332: eh:ID99
+    4300334: eh:ID107
+    4300336: eh:ID115
+    4300338: pCube1
+    9500000: //RootNode
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: .5
+    animationPositionError: .5
+    animationScaleError: .5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    splitTangentsAcrossUV: 1
+    normalImportMode: 0
+    tangentImportMode: 1
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: .5
+    foreArmTwist: .5
+    upperLegTwist: .5
+    legTwist: .5
+    armStretch: .0500000007
+    legStretch: .0500000007
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

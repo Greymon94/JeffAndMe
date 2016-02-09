@@ -21,12 +21,8 @@ public class DoorOpenClose : MonoBehaviour {
 		if (!rotateClockwise)
 			rotDir = -1;
 
-		//Quaternion.LookRotation( new Vector3(closedRot.
-		openRot.SetLookRotation(new Vector3(1f, 0, 1));
-			/*Set (transform.rotation.x, 
-		            transform.rotation.y + (turnDegrees * rotDir),
-		            transform.rotation.z,
-		            transform.rotation.w);*/
+        
+        openRot.SetLookRotation(new Vector3(rotDir * Mathf.PI / 2, 0, 1));
 	}
 	
 	// Update is called once per frame

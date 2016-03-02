@@ -5,7 +5,6 @@ public class DoorOpenClose : MonoBehaviour {
 
 	public bool isLocked = true;
 	public bool rotateClockwise = true;
-    public float activateDistance = 2.0f;
 	//public float turnDegrees = 90.0f;
 	public float moveSpeed = 1.0f;
 
@@ -53,15 +52,6 @@ public class DoorOpenClose : MonoBehaviour {
 	void OnMouseUpAsButton()
 	{
 		Debug.Log ("Door Clicked");
-        Vector3 cameraPos = Camera.main.transform.position;
-        float dxSquare = Mathf.Pow(cameraPos.x - transform.position.x, 2);
-        float dySquare = Mathf.Pow(cameraPos.y - transform.position.y, 2);
-        float dzSquare = Mathf.Pow(cameraPos.z - transform.position.z, 2);
-        if (Mathf.Pow(activateDistance, 2) < (dxSquare + dySquare + dzSquare))
-        {
-            return;
-        }
-
 		if (isLocked || isRotating)
 			return;
 

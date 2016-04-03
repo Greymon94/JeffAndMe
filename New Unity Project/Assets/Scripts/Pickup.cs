@@ -3,6 +3,7 @@ using System.Collections;
 
 public class Pickup : MonoBehaviour {
 
+    public bool isHeld = false;
     public float activateDistance = 1;
     public Vector3 rotationAdjust;
     public Vector3 relativePositionToPlayer = new Vector3(0, -1, 2);
@@ -30,6 +31,7 @@ public class Pickup : MonoBehaviour {
             transform.SetParent(Camera.main.transform);
             transform.localRotation = Quaternion.Euler(rotationAdjust);
             transform.localPosition = relativePositionToPlayer;
+            isHeld = true;
         }
     }
 }

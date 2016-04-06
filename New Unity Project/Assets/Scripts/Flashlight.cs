@@ -46,7 +46,7 @@ public class Flashlight : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-/*****FLICKER TEST CODE******
+//*****FLICKER TEST CODE******
         if (isFlickering)
         {
             Flicker();
@@ -62,10 +62,14 @@ public class Flashlight : MonoBehaviour
             }
         }
 //*/
-        if (Input.GetMouseButtonUp(1) && pickupScript.isHeld)
+        if (Input.GetMouseButtonUp(1))
         {
-            Debug.Log("Right mouse released");
-            TogglePower();
+            Debug.Log("Right mouse clicked");
+            if (pickupScript.isHeld)
+            {
+                Debug.Log("Right mouse released");
+                TogglePower();
+            }
         }
     }
 

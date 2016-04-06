@@ -4,6 +4,7 @@ using System.Collections;
 public class Flashlight : MonoBehaviour
 {
     public Pickup pickupScript;
+    public float maxFlickerDelay = 0.5f;
 
     Light flashlight;
     float maxBrightness;
@@ -13,8 +14,7 @@ public class Flashlight : MonoBehaviour
     int curFlickerCount = 0;
     bool flickerStartOn = true;
     bool flickerEndOn = true;
-    const float flickerTimer = 0.5f;
-    float curFlickerTimer = 0;
+    float curmaxFlickerDelay = 0;
 
     const float flickerDelay = 3;
     float curFlickerDelay = 0;
@@ -99,10 +99,11 @@ public class Flashlight : MonoBehaviour
 
     public void Flicker()
     {
-        curFlickerTimer += Time.deltaTime;
-        if (curFlickerTimer > flickerTimer)
+        curmaxFlickerDelay += Time.deltaTime;
+        if (curmaxFlickerDelay > maxFlickerDelay)
         {
-            curFlickerTimer -= flickerTimer;
+            curmaxFlickerDelay -= maxFlickerDelay;
+            curmaxFlickerDelay += (Random.Range(0, 100) / 100.0f) * maxFlickerDelay;
             TogglePower();
             curFlickerCount++;
         }

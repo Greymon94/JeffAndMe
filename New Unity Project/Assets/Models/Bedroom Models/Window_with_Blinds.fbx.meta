@@ -1,0 +1,166 @@
+fileFormatVersion: 2
+guid: e57a9c3e051510e42ad4d1174b6ce83c
+timeCreated: 1460087969
+licenseType: Free
+ModelImporter:
+  serializedVersion: 18
+  fileIDToRecycleName:
+    100000: Blinds
+    100002: Blinds 1
+    100004: Blinds_Bottem
+    100006: Blinds_Bottem 1
+    100008: Blinds_Holders
+    100010: Blinds_Holders 1
+    100012: Blinds_Knob
+    100014: Blinds_Knob 1
+    100016: Blinds_Knot
+    100018: Blinds_Knot 1
+    100020: Blinds_String
+    100022: Blinds_String 1
+    100024: Blinds_Stringtop
+    100026: Blinds_Stringtop 1
+    100028: Blinds_Top
+    100030: Blinds_Top 1
+    100032: Window
+    100034: Window 1
+    100036: Window_Bedroom1
+    100038: //RootNode
+    400000: Blinds
+    400002: Blinds 1
+    400004: Blinds_Bottem
+    400006: Blinds_Bottem 1
+    400008: Blinds_Holders
+    400010: Blinds_Holders 1
+    400012: Blinds_Knob
+    400014: Blinds_Knob 1
+    400016: Blinds_Knot
+    400018: Blinds_Knot 1
+    400020: Blinds_String
+    400022: Blinds_String 1
+    400024: Blinds_Stringtop
+    400026: Blinds_Stringtop 1
+    400028: Blinds_Top
+    400030: Blinds_Top 1
+    400032: Window
+    400034: Window 1
+    400036: Window_Bedroom1
+    400038: //RootNode
+    2300000: Blinds
+    2300002: Blinds 1
+    2300004: Blinds_Bottem
+    2300006: Blinds_Bottem 1
+    2300008: Blinds_Holders
+    2300010: Blinds_Holders 1
+    2300012: Blinds_Knob
+    2300014: Blinds_Knob 1
+    2300016: Blinds_Knot
+    2300018: Blinds_Knot 1
+    2300020: Blinds_String
+    2300022: Blinds_String 1
+    2300024: Blinds_Stringtop
+    2300026: Blinds_Stringtop 1
+    2300028: Blinds_Top
+    2300030: Blinds_Top 1
+    2300032: Window
+    2300034: Window 1
+    3300000: Blinds
+    3300002: Blinds 1
+    3300004: Blinds_Bottem
+    3300006: Blinds_Bottem 1
+    3300008: Blinds_Holders
+    3300010: Blinds_Holders 1
+    3300012: Blinds_Knob
+    3300014: Blinds_Knob 1
+    3300016: Blinds_Knot
+    3300018: Blinds_Knot 1
+    3300020: Blinds_String
+    3300022: Blinds_String 1
+    3300024: Blinds_Stringtop
+    3300026: Blinds_Stringtop 1
+    3300028: Blinds_Top
+    3300030: Blinds_Top 1
+    3300032: Window
+    3300034: Window 1
+    4300000: Window
+    4300002: Blinds_Bottem
+    4300004: Blinds_Knob
+    4300006: Blinds_String
+    4300008: Blinds_Knot
+    4300010: Blinds_Stringtop
+    4300012: Blinds
+    4300014: Blinds_Holders
+    4300016: Blinds_Top
+    4300018: Window
+    4300020: Blinds_Bottem
+    4300022: Blinds_Knob
+    4300024: Blinds_String
+    4300026: Blinds_Knot
+    4300028: Blinds_Stringtop
+    4300030: Blinds
+    4300032: Blinds_Holders
+    4300034: Blinds_Top
+    9500000: //RootNode
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: .5
+    animationPositionError: .5
+    animationScaleError: .5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 100
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    splitTangentsAcrossUV: 1
+    normalImportMode: 0
+    tangentImportMode: 1
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: .5
+    foreArmTwist: .5
+    upperLegTwist: .5
+    legTwist: .5
+    armStretch: .0500000007
+    legStretch: .0500000007
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

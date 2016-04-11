@@ -8,6 +8,8 @@ public class Pickup : MonoBehaviour {
     public Vector3 rotationAdjust;
     public Vector3 relativePositionToPlayer = new Vector3(0, -1, 2);
 
+    public AudioClip[] playOnPickup;
+
 	// Use this for initialization
 	void Start () {
 	}
@@ -25,6 +27,7 @@ public class Pickup : MonoBehaviour {
         float dzSquare = Mathf.Pow(cameraPos.z - transform.position.z, 2);
         if (Mathf.Pow(activateDistance, 2) > (dxSquare + dySquare + dzSquare))
         {
+            bool pickedUp = true;
             switch (gameObject.tag)
             {
                 case "Flashlight":
@@ -61,7 +64,20 @@ public class Pickup : MonoBehaviour {
                     gameObject.SetActive(false);
                     break;
                 default:
+                    pickedUp = false;
                     return;
+            }
+
+            if (pickedUp && playOnPickup != null)
+            {
+                foreach (AudioClip ac in playOnPickup)
+                {
+                    PlaySound ps = gameObject.AddComponent<PlaySound>();
+                    ps.soundClip = ac;
+                    ps.whenToEnd = PlaySound.PlayEnd.endOfClip;
+                    StartCoroutine(ps.StartClip(-1));
+                    ps.whenToStart = PlaySound.PlayStart.never;
+                }
             }
         }
     }

@@ -3,6 +3,8 @@ using System.Collections;
 
 public class Flashlight : MonoBehaviour
 {
+    public bool canTurnOn = false;
+
     public Pickup pickupScript;
     public float maxFlickerDelay = 0.5f;
 
@@ -51,7 +53,7 @@ public class Flashlight : MonoBehaviour
         {
             Flicker();
         }
-        else
+/*        else
         {
             curFlickerDelay += Time.deltaTime;
             if (curFlickerDelay > flickerDelay)
@@ -75,7 +77,7 @@ public class Flashlight : MonoBehaviour
 
     public void PowerSwitch(bool turnOn)
     {
-        if (turnOn)
+        if (turnOn && canTurnOn)
         {
             flashlight.intensity = maxBrightness;
             return;
@@ -94,7 +96,9 @@ public class Flashlight : MonoBehaviour
 
         flickerEndOn = willEndOn;
         curFlickerCount = 0;
+        curFlickerDelay = 0;
         isFlickering = true;
+        canTurnOn = true;
     }
 
     public void Flicker()
@@ -113,10 +117,21 @@ public class Flashlight : MonoBehaviour
             if (isOn == flickerEndOn)
             {
                 isFlickering = false;
+                FlickerEnd();
                 Debug.Log("FLICKER END");
             }
             else
                 curFlickerCount--;
+        }
+    }
+
+    public void FlickerEnd()
+    {
+        if (PlayerInventory.batteryCount < 2)
+        {
+            if (isOn)
+                TogglePower();
+            canTurnOn = false;
         }
     }
 }

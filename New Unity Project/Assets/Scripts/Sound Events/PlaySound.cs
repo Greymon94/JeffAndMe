@@ -9,17 +9,17 @@ public class PlaySound : MonoBehaviour
     public AudioClip soundClip;
     AudioSource myAudio;
 
-    public enum PlayStart {onEnter, onExit};
+    public enum PlayStart { onEnter, onExit, never };
     public PlayStart whenToStart;
 
-    public enum PlayEnd { endOfClip, onEnter, onExit, onTimer };
+    public enum PlayEnd { endOfClip, onEnter, onExit, onTimer, never };
     public PlayEnd whenToEnd;
 
-    public float optionalTimer;
+    public float optionalLength = -1;
 
 	// Use this for initialization
 	void Start () {
-        myAudio = GetComponent<AudioSource>();
+        myAudio = gameObject.AddComponent<AudioSource>();
         myAudio.clip = soundClip;
         GetComponent<Collider>().isTrigger = true;
 	}
@@ -37,7 +37,7 @@ public class PlaySound : MonoBehaviour
         {
             Debug.Log("starting audio");
             //other.GetComponent<AudioSource>().PlayOneShot(soundClip);
-            StartClip(optionalTimer, other);
+            StartCoroutine(StartClip(optionalLength));
         }
         else if (whenToEnd == PlayEnd.onEnter)
         {
@@ -47,6 +47,7 @@ public class PlaySound : MonoBehaviour
 
     void OnTriggerExit(Collider other)
     {
+        Debug.Log("Object exiting collider");
         if (other.tag != "Player")
         {
             Debug.Log("Collided with not player");
@@ -55,7 +56,8 @@ public class PlaySound : MonoBehaviour
 
         if (whenToStart == PlayStart.onExit)
         {
-            StartClip(optionalTimer, other);
+            Debug.Log("Starting audio");
+            StartCoroutine(StartClip(optionalLength));
         }
         else if (whenToEnd == PlayEnd.onExit)
         {
@@ -63,24 +65,13 @@ public class PlaySound : MonoBehaviour
         }
     }
 
-    IEnumerator StartClip(float timer, Collider c)
+    public IEnumerator StartClip(float timer)
     {
-        /*
-        myAudio = null;
-        foreach (AudioSource a in c.GetComponents<AudioSource>())
-        {
-            if (!a.isPlaying)
-            {
-                myAudio = a;
-                break;
-            }
-        }
+        Debug.Log("Starting clip: " + myAudio.clip.name);
         if (myAudio == null)
-        {
-            myAudio = c.gameObject.AddComponent<AudioSource>();
-        }
-        myAudio.clip = soundClip;
-        //*/
+            myAudio = gameObject.AddComponent<AudioSource>();
+        if (myAudio.clip == null)
+            myAudio.clip = soundClip;
         myAudio.Stop();
         myAudio.Play();
         if (timer > 0)

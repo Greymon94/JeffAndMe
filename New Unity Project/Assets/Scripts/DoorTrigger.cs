@@ -5,6 +5,8 @@ public class DoorTrigger : MonoBehaviour {
 
     bool triggeredBefore = false;
 
+   
+
 	void OnTriggerExit(Collider c)
     {
         if (!triggeredBefore)

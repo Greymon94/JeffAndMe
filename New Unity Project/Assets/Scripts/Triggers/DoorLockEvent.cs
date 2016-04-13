@@ -10,6 +10,7 @@ public class DoorLockEvent : BaseEvent {
 	// Use this for initialization
 	void Awake () {
 		doorControl = GetComponent<DoorOpenClose> ();
+        
 	}
 	
 	// Update is called once per frame

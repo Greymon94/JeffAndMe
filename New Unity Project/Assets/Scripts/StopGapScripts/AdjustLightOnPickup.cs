@@ -7,7 +7,7 @@ public class AdjustLightOnPickup : MonoBehaviour {
 
     void OnDisable()
     {
-        if (lightSource != null)
+        if (lightSource != null && PlayerInventory.batteryCount >= 2)
         {
             lightSource.intensity = newLightIntensity;
         }

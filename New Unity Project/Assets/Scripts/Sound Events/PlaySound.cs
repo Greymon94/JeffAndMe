@@ -21,7 +21,7 @@ public class PlaySound : MonoBehaviour
 	void Start () {
         myAudio = gameObject.AddComponent<AudioSource>();
         myAudio.clip = soundClip;
-        GetComponent<Collider>().isTrigger = true;
+        //GetComponent<Collider>().isTrigger = true;
 	}
 
     void OnTriggerEnter(Collider other)
@@ -67,11 +67,11 @@ public class PlaySound : MonoBehaviour
 
     public IEnumerator StartClip(float timer)
     {
-        Debug.Log("Starting clip: " + myAudio.clip.name);
         if (myAudio == null)
             myAudio = gameObject.AddComponent<AudioSource>();
         if (myAudio.clip == null)
             myAudio.clip = soundClip;
+        Debug.Log("Starting clip: " + myAudio.clip.name);
         myAudio.Stop();
         myAudio.Play();
         if (timer > 0)

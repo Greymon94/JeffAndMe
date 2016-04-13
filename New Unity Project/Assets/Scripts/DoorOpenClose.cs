@@ -8,10 +8,16 @@ public class DoorOpenClose : MonoBehaviour {
     public float activateDistance = 2.0f;
 	//public float turnDegrees = 90.0f;
 	public float moveSpeed = 1.0f;
-
-	bool isOpen = false;
-	bool isRotating = false;
-
+    public AudioClip lockedSound;
+    [HideInInspector]
+	public bool isOpen = false;
+    [HideInInspector]
+    public bool isRotating = false;
+    public AudioClip angryLockedSound;
+    public bool lockTimer;
+    public float lockTime;
+    private bool counting = false;
+    private float currentTime = 0f;
 	Quaternion closedRot, openRot;
 
 	// Use this for initialization
@@ -28,6 +34,15 @@ public class DoorOpenClose : MonoBehaviour {
 	
 	// Update is called once per frame
 	void Update () {
+        if (counting)
+        {
+            currentTime -= Time.deltaTime;
+            if (currentTime <= 0f)
+            {
+                isLocked = false;
+                counting = false;
+            }
+        }
 		if (isRotating) {
 			if (isOpen)
 			{
@@ -62,7 +77,34 @@ public class DoorOpenClose : MonoBehaviour {
             return;
         }
 
-		if (isLocked || isRotating)
+		if (isLocked)
+        {
+            if (currentTime > 0f)
+            {
+                PlaySound ps = gameObject.AddComponent<PlaySound>();
+                ps.soundClip = angryLockedSound;
+                ps.whenToEnd = PlaySound.PlayEnd.endOfClip;
+                StartCoroutine(ps.StartClip(-1));
+                ps.whenToStart = PlaySound.PlayStart.never;
+                return;
+            }
+            else if (gameObject.tag.Equals("OnClickDoor"))
+            {
+                currentTime = lockTime;
+                counting = true;
+                return;
+            }
+            else {
+                PlaySound ps = gameObject.AddComponent<PlaySound>();
+                ps.soundClip = lockedSound;
+                ps.whenToEnd = PlaySound.PlayEnd.endOfClip;
+                StartCoroutine(ps.StartClip(-1));
+                ps.whenToStart = PlaySound.PlayStart.never;
+                return;
+            }
+        }
+
+        if (isRotating)
 			return;
 
 		isRotating = true;
